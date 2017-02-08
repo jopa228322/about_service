@@ -1,0 +1,174 @@
+<!-- 
+	/**************************************************/
+	/**************************************************/
+	/**************************************************/
+	
+	/**/
+
+	/**************************************************/
+	/**************************************************/
+
+
+  --> 
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/owl.carousel.css">
+</head>
+<body>	
+<main>
+	<section class="centerBlock clearfix tab-item">
+		<div class="about-service-content">
+
+													<!-- О сервисе -->
+
+			<div class="about-service-top">
+				<div class="about-service-text">
+					<h1> О СЕРВИСЕ</h1>
+					<div class="service-text">
+						<p>Уважаемый пользователь, на этой странице ты узнаешь всё о нашей компании, а так же кто её основал и работал над этим проектом, так же у нас есть свободные вакансии.</p>
+					</div>
+				</div>
+				
+			</div>
+			<div class="about-service-down">
+				<div class="img-about-service-top">
+					<img src="images/about-service-img.png" alt="">
+				</div>
+			</div>
+		</div>
+
+													<!-- О компании -->
+		<div class="about-company">
+			<div class="about-company-content">
+				<div class="company-left-content">
+					<h4>О нашей компании</h4>
+				</div>
+				<div class="company-right-content">
+					<h4>Межнациональная корпорация “Republic”</h4>
+					<p>
+						Наш проект направлен на развитие туристической сферы в республике Дагестан, путем объединения существующих организаций: частных предпринимателей и физических лиц, готовых предоставлять свои услуги в интересующей нас области на одной интернет-площадке. Задачей самой площадки является обеспечение людей, желающих путешествовать по Дагестану, комфортным отдыхом на любой вкус.
+Основная цель проекта — предоставить возможность эффективного взаимодействия туристов и людей, предоставляющих туристические услуги.
+Проект не ограничивает пользователей по возрасту, полу, национальности, взглядам на жизнь. Каждый желающий может посетить туристическую площадку RePublic и либо оставить предложения своих услуг, либо воспользоваться существующими предложениями.
+					</p>
+				</div>
+			</div>
+		</div>
+
+													<!-- Разрабы -->
+
+
+		<div class="about-developers">
+			<div class="about-developers-content">
+				<div class="developers-left-content">
+					<h4>
+						Разработчики Republic: 
+					</h4>
+				</div>
+				<div class="developers-right-content">
+						<h4>Developers “Republic”</h4>
+						<p>
+							В данном разделе вы видите чуваков которые работали надо данным проектом
+							бла бла бла бла бла бла бла бла бла бла бла
+						</p>
+						<div class="photo-developers">
+							<div class="ph-dev-top">
+
+								<div class="ph-dev-item">
+									<div class="ph-dev-img">
+										<img src="images/Kris.png" alt="">
+									</div>
+									<h4>Тюрюханова Кристина</h4>
+									<div class="hr-photo-dev"></div>
+									<p>
+										Основатель проекта Back-end разработчик
+									</p>
+								</div>
+
+								<div class="ph-dev-item">
+									<div class="ph-dev-img">
+										<img src="images/ruslan.png" alt="">
+									</div>
+									<h4>Алиев Руслан</h4>
+									<div class="hr-photo-dev"></div>
+									<p>
+										Основатель проекта Android разработчик
+									</p>
+								</div>
+
+								<div class="ph-dev-item">
+									<div class="ph-dev-img">
+										<img src="images/amina.png" alt="">
+									</div>
+									<h4>Султанова Амина</h4>
+									<div class="hr-photo-dev"></div>
+									<p>
+										Менеджер проекта
+									</p>
+								</div>
+
+							</div> 
+							<div class="ph-dev-down">
+
+								<div class="ph-dev-item">
+									<div class="ph-dev-img">
+										<img src="images/rasul.png" alt="">
+									</div>
+									<h4>Зияудинов Расул</h4>
+									<div class="hr-photo-dev"></div>
+									<p>
+										Web-дизайнер
+									</p>
+								</div>
+
+								<div class="ph-dev-item">
+									<div class="ph-dev-img">
+										<img src="images/vic.png" alt="">
+									</div>
+									<h4>Осипов Vic</h4>
+									<div class="hr-photo-dev"></div>
+									<p>
+										Биг рашн босс <br> Front-end разработчик
+									</p>
+								</div>
+
+								<div class="ph-dev-item">
+									<div class="ph-dev-img">
+										<img src="images/lik.png" alt="">
+									</div>
+									<h4>Малик</h4>
+									<div class="hr-photo-dev"></div>
+									<p>
+										Биг рашн босс <br> Front-end разработчик
+									</p>
+								</div>
+
+							</div>
+						</div>
+						сила Front-end`а
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+</main>
+<script>
+$(".tab-item").not(":first").hide();
+$(".tab").click(function() {
+	$(".tab").removeClass("active-panel-lk").eq($(this).index()).addClass("active-panel-lk");
+	$(".tab-item").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active-panel-lk"); 
+</script>
+</body>
+</html>

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=cyrillic');
+/* font-family: 'Open Sans', sans-serif; */
+@font-face {
+	font-family: "ProximaNova";
+	src: url("../fonts/ProximaNova-Regular.ttf") format("truetype"),
+	url("../fonts/ProximaNova-Regular.woff") format("woff"),
+	url("../fonts/ProximaNova-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal
+}@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Regular.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}@font-face {
+	font-family: "OpenSansLight";
+	src: url("../fonts/OpenSans-Light.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}@font-face {
+	font-family: "OpenSansBold";
+	src: url("../fonts/OpenSans-Bold.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: "OpenSansSemibold";
+	src: url("../fonts/OpenSans-Semibold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal
+}
+@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Regular.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	min-width: 1280px;
+	max-width: 1920px;
+	background-color: #fafafa;
+	margin: 0 auto;
+}
+main{margin-bottom: 420px;
+ z-index: 2;
+ background: #fafafa;
+}
+.centerBlock{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-left: 26px;
+	padding-right: 26px;
+}
+.clearfix::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+/*********************************/
+.about-service-content{
+	margin-bottom: 50px;
+}
+.about-service-text{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+}
+.about-service-text h1{
+	font-size: 24px;
+	font-family: "OpenSansBold";
+	text-transform: uppercase;
+	color: #2e3036;
+	margin: 0;
+	margin-bottom: 18px;
+}
+.service-text p{
+	text-align: center;
+	font-size: 14px;
+	font-family: "OpenSansLight";
+	color: #2e3036;
+	line-height: 30px;
+	margin: 0;
+	margin-bottom: 60px;
+}
+.img-about-service-top{
+	height: 550px;
+	width: 100%;
+}
+.img-about-service-top img{
+	width: 100%;
+	height: 100%;
+}
+.about-company-content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px;
+	margin-bottom: 50px;
+}
+.company-left-content{
+	width: 40%;
+}
+.company-left-content h4{
+	text-align: left;
+	font-size: 18px;
+	font-family: "OpenSansSemiBold";
+	color: #2e3036;
+	margin: 0;
+	line-height: 30px;
+}
+.company-right-content{
+	width: 59%;
+	line-height: 30px;
+}
+.company-right-content h4{
+	font-size: 24px;
+	font-family: "OpenSansSemiBold";
+	color: #2e3036;
+	margin: 0;
+	margin-bottom: 28px;
+}
+.company-right-content p{
+	font-size: 16px;
+	margin: 0;
+	font-family: "OpenSansLight";
+	letter-spacing: 0.2px;
+
+}
+.about-developers-content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px;
+	margin-bottom: 50px;
+}
+.developres-left-content{
+	width: 40%;
+}
+.developers-left-content h4{
+	text-align: left;
+	font-size: 18px;
+	font-family: "OpenSansSemiBold";
+	color: #2e3036;
+	margin: 0;
+	line-height: 30px;
+}
+.developers-right-content{
+	width: 59%;
+	line-height: 30px;
+}
+.developers-right-content h4{
+	font-size: 24px;
+	font-family: "OpenSansSemiBold";
+	color: #2e3036;
+	margin: 0;
+	margin-bottom: 28px;
+}
+.developers-right-content p{
+	font-size: 16px;
+	margin: 0;
+	font-family: "OpenSansLight";
+	letter-spacing: 0.2px;
+	margin-bottom: 50px;
+}
+.ph-dev-top{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.ph-dev-item{
+	width: 30%;
+	
+}
+.ph-dev-img{
+	height: 270px;
+	line-height: 18px;
+}
+.ph-dev-item img{
+		width: 100%;
+		height: 100%;
+}
+.ph-dev-item h4{
+	font-size: 14px;
+	font-family: "OpenSans";
+	margin: 0;
+	text-align: center;
+	margin-top: 20px;
+}
+.hr-photo-dev{
+	display: block;
+	width: 20%;
+	margin: 12px auto;
+	border-bottom: 1px solid #2e3036;
+}
+.ph-dev-item p{
+	font-size: 12px;
+	font-family: "OpenSansLight";
+	margin: 0;
+	text-align: center;
+	width: 65%;
+    margin: 0 auto;
+}
+.ph-dev-down{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
