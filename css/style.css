@@ -206,7 +206,7 @@ main{margin-bottom: 420px;
 }
 .hr-photo-dev{
 	display: block;
-	width: 20%;
+	width: 45px;
 	margin: 12px auto;
 	border-bottom: 1px solid #2e3036;
 }
@@ -217,6 +217,7 @@ main{margin-bottom: 420px;
 	text-align: center;
 	width: 65%;
     margin: 0 auto;
+    line-height: 18px;
 }
 .ph-dev-down{
 	display: -webkit-flex;
@@ -225,6 +226,276 @@ main{margin-bottom: 420px;
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
+}
+.jobs-content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px;
+	margin-bottom: 50px;
+}
+.jobs-left-content h4{
+	text-align: left;
+	font-size: 18px;
+	font-family: "OpenSansSemiBold";
+	color: #2e3036;
+	margin: 0;
+	line-height: 30px;
+}
+.jobs-right-content{
+	width: 59%;
+	line-height: 30px;
+}
+.jobs-right-content h4{
+	font-size: 24px;
+	font-family: "OpenSansSemiBold";
+	color: #2e3036;
+	margin: 0;
+	margin-bottom: 28px;
+}
+.jobs-right-content p{
+	font-size: 16px;
+	margin: 0;
+	font-family: "OpenSansLight";
+	letter-spacing: 0.2px;
+	margin-bottom: 50px;
+}
+.jobs-button{
+	display: block;
+	outline: 0;
+	border: 0;
+	background-color: #fff;
+	width: 100%;
+	text-align: left;
+	padding: 30px 28px;
+	position: relative;
+	box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.05);
+	margin-bottom: 20px;
+}
+.jobs-button h3{
+	font-family: "OpenSans";
+	font-size: 18px;
+
+}
+.hr-jobs{
+	display: block;
+	width: 45px;
+	margin: 12px 0;
+	border-bottom: 1px solid #2e3036;
+}
+.jobs-button p{
+	font-size: 12px;
+    font-family: "OpenSansLight";
+    margin: 0;
+    text-align: left;
+    width: 65%;
+    margin: 0 ;
+    line-height: 18px;
+}
+.jobs-arrow{
+	position: absolute;
+	right: 35px;
+    top: 55px;
+}
+.jobs-active{
+	display: none;
+}
+
+
+
+
+.jobs-button-ux{
+	display: block;
+	outline: 0;
+	border: 0;
+	background-color: #fff;
+	width: 100%;
+	text-align: left;
+	padding: 30px 28px;
+	position: relative;
+	box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.05);
+	margin-bottom: 20px;
+}
+.jobs-button-ux h3{
+	font-family: "OpenSans";
+	font-size: 18px;
+
+}
+.hr-jobs{
+	display: block;
+	width: 45px;
+	margin: 12px 0;
+	border-bottom: 1px solid #2e3036;
+}
+.jobs-button-ux p{
+	font-size: 12px;
+    font-family: "OpenSansLight";
+    margin: 0;
+    text-align: left;
+    width: 65%;
+    margin: 0 ;
+    line-height: 18px;
+}
+.jobs-arrow{
+	position: absolute;
+	right: 35px;
+    top: 55px;
+}
+
+
+
+.jobs-button-men{
+	display: block;
+	outline: 0;
+	border: 0;
+	background-color: #fff;
+	width: 100%;
+	text-align: left;
+	padding: 30px 28px;
+	position: relative;
+	box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.05);
+	margin-bottom: 20px;
+}
+.jobs-button-men h3{
+	font-family: "OpenSans";
+	font-size: 18px;
+
+}
+.hr-jobs{
+	display: block;
+	width: 45px;
+	margin: 12px 0;
+	border-bottom: 1px solid #2e3036;
+}
+.jobs-button-men p{
+	font-size: 12px;
+    font-family: "OpenSansLight";
+    margin: 0;
+    text-align: left;
+    width: 65%;
+    margin: 0 ;
+    line-height: 18px;
+}
+.jobs-active-description{
+	margin: 50px 0;
+	margin-bottom: 20px;
+}
+
+.jobs-active-text{
+	margin: 0 !important;
+	margin-bottom: 15px !important;
+	padding: 0 35px !important;
+	width: 100% !important;
+	font-size: 18px !important;
+	font-family: "OpenSans" !important;
+	line-height: 30px !important;
+}
+#jobs-arrow-ux{
+	position: absolute;
+	right: 30px;
+    top: 55px;
+    transition: 0.4s all
+}
+#jobs-arrow-men{
+	position: absolute;
+	right: 30px;
+    top: 55px;
+    transition: 0.4s all
+}
+#jobs-arrow-fe{
+	position: absolute;
+	right: 30px;
+    top: 55px;
+    transition: 0.4s all
+}
+.jobs-active-men{
+	padding: 0px 20px;
+	margin-top: 30px;
+	border-top: 1px solid #e0e0e0;
+	display: none;
+}
+.jobs-active-ux{
+	padding: 0px 20px;
+	margin-top: 30px;
+	border-top: 1px solid #e0e0e0;
+	display: none;
+}
+.jobs-active-fe{
+	padding: 0px 20px;
+	margin-top: 30px;
+	border-top: 1px solid #e0e0e0;
+	display: none;
+}
+
+
+
+
+
+.supp-content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px;
+	margin-bottom: 50px;
+}
+.supp-left-content h4{
+	text-align: left;
+	font-size: 18px;
+	font-family: "OpenSansSemiBold";
+	color: #2e3036;
+	margin: 0;
+	line-height: 30px;
+}
+.supp-right-content{
+	width: 59%;
+	line-height: 30px;
+}
+.supp-right-content h4{
+	font-size: 24px;
+	font-family: "OpenSansSemiBold";
+	color: #2e3036;
+	margin: 0;
+	margin-bottom: 28px;
+}
+.supp-right-content p{
+	font-size: 16px;
+	margin: 0;
+	font-family: "OpenSansLight";
+	letter-spacing: 0.2px;
+	margin-bottom: 50px;
+}
+.supp-right-content p>b{
+	font-family: "OpenSans";
+}
+.how-use-content{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.how-use-content h3{
+	font-size: 24px;
+	font-family: "OpenSansSemiBold";
+	color: #2e3036;
+	margin: 0;
+	margin-bottom: 25px;
+}
+.how-use-content p{
+	font-size: 16px;
+	font-family: "OpenSansLight";
+	color: #2e3036;
+	margin: 0;
+}
+.how-use-content a{
+	font-size: 16px;
+	font-family: "OpenSansLight";
+	color: #2e3036;
+	margin: 0;
 }
 
 
