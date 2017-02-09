@@ -1,29 +1,29 @@
 function anichangeMen() {
  if ( $(".jobs-active-men").css('display') == 'none' ) {
- $(".jobs-active-men").animate({height: 'show'}, 400);
+ $(".jobs-active-men").animate({height: 'show'}, 700);
  document.getElementById("jobs-arrow-men").style.transform = 'rotate(-180deg)';
  } else {
- $(".jobs-active-men").animate({height: 'hide'}, 200);
+ $(".jobs-active-men").animate({height: 'hide'}, 700);
  document.getElementById("jobs-arrow-men").style.transform = 'rotate(-360deg)';
  }	
 }
 
 function anichangeUx() {
  if ( $(".jobs-active-ux").css('display') == 'none' ) {
- $(".jobs-active-ux").animate({height: 'show'}, 400);
+ $(".jobs-active-ux").animate({height: 'show'}, 700);
  document.getElementById("jobs-arrow-ux").style.transform = 'rotate(-180deg)';
  } else {
- $(".jobs-active-ux").animate({height: 'hide'}, 200);
+ $(".jobs-active-ux").animate({height: 'hide'}, 700);
  document.getElementById("jobs-arrow-ux").style.transform = 'rotate(-360deg)';
  }	
 }
 
 function anichangeFe() {
  if ( $(".jobs-active-fe").css('display') == 'none' ) {
- $(".jobs-active-fe").animate({height: 'show'}, 400);
+ $(".jobs-active-fe").animate({height: 'show'}, 700);
  document.getElementById("jobs-arrow-fe").style.transform = 'rotate(-180deg)';
  } else {
- $(".jobs-active-fe").animate({height: 'hide'}, 200);
+ $(".jobs-active-fe").animate({height: 'hide'}, 700);
  document.getElementById("jobs-arrow-fe").style.transform = 'rotate(-360deg)';
  }	
 }
